@@ -2,7 +2,9 @@
 
 Demo:
 
-<video controls src="https://raw.githubusercontent.com/gaurav012005/Qskill-project/main/TaskFocus/20260204-1702-16.1811420.mp4" width="100%"></video>
+<video controls src="https://github.com/gaurav012005/Qskill-project/blob/main/TaskFocus/20260204-1702-16.1811420.mp4?raw=true" width="100%"></video>
+
+[🎥 Click here to watch/download the Demo Video if it doesn't load above](https://github.com/gaurav012005/Qskill-project/blob/main/TaskFocus/20260204-1702-16.1811420.mp4?raw=true)
 
 ## 📋 Project Overview
 
