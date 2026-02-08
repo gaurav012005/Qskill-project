@@ -55,7 +55,7 @@ npm run dev
 
 ### Sample Test Account
 
-**Email:** `test@example.com`  
+**Email:** `test123@gmail.com`  
 **Password:** `test123456`
 
 **Note:** Create this account first using the Sign Up form.

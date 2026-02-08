@@ -1,6 +1,8 @@
 # Qskill Internship Project: Coding Ninjas Clone
 
-Demo: <video controls src="Screen Recording 2026-02-07 204054.mp4" title="Title"></video>
+Demo:
+
+<video controls src="./Screen%20Recording%202026-02-07%20204054.mp4" width="100%"></video>
 
 ## 📚 Project Overview
 

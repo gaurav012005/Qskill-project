@@ -2,33 +2,9 @@
 
 ## 🚀 Get Started in 5 Minutes
 
-### Step 1: Database Setup
 
-1. **Start MySQL Server**
-   - Open MySQL Workbench or command line
-   - Ensure MySQL is running
 
-2. **Create Database**
-   ```bash
-   mysql -u root -p
-   ```
-   
-   Then run:
-   ```sql
-   CREATE DATABASE eduroute;
-   USE eduroute;
-   ```
-
-3. **Import Schema**
-   - Copy the contents of `backend/schema.sql`
-   - Paste and execute in MySQL
-
-   **OR** use command line:
-   ```bash
-   mysql -u root -p eduroute < backend/schema.sql
-   ```
-
-### Step 2: Backend Setup
+### Step 1: Backend Setup
 
 ```bash
 # Navigate to backend
@@ -37,9 +13,6 @@ cd backend
 # Install dependencies (if not already done)
 npm install
 
-# Configure environment
-# Open .env file and set your MySQL password:
-# DB_PASSWORD=your_mysql_password
 
 # Start backend server
 npm run dev
@@ -47,7 +20,7 @@ npm run dev
 
 ✅ Backend should be running on `http://localhost:5000`
 
-### Step 3: Frontend Setup
+### Step 2: Frontend Setup
 
 ```bash
 # Open new terminal
@@ -63,7 +36,14 @@ npm run dev
 
 ✅ Frontend should be running on `http://localhost:5173`
 
-### Step 4: Test the Application
+login deatils
+student
+email:student@eduroute.com/ password123
+
+instructor
+eamil:instructor@eduroute.com/  password123
+
+### Step 3: Test the Application
 
 1. **Open Browser**: Navigate to `http://localhost:5173`
 
@@ -154,107 +134,3 @@ npm install
 ```
 
 ---
-
-## 📱 Testing Checklist
-
-### Authentication
-- [ ] Register new account
-- [ ] Login with demo account
-- [ ] Logout
-- [ ] Token persistence (refresh page)
-- [ ] Auto-redirect after login
-
-### Routing
-- [ ] Navigate to all public routes
-- [ ] Try accessing protected routes without login
-- [ ] Test role-based access (student vs instructor)
-- [ ] Test 404 page
-- [ ] Test unauthorized page
-
-### Course Player
-- [ ] Enroll in course
-- [ ] Navigate through lessons
-- [ ] Mark lessons complete
-- [ ] Progress bar updates
-- [ ] Resume from last lesson
-- [ ] Take quiz
-- [ ] View results
-
-### Edge Cases
-- [ ] Invalid course ID
-- [ ] Direct URL to lesson
-- [ ] Refresh during course
-- [ ] Back button navigation
-- [ ] Token expiry
-
----
-
-## 🎨 Key Features to Notice
-
-### 1. Glassmorphism Design
-- Transparent cards with backdrop blur
-- Subtle borders and shadows
-- Premium, modern aesthetic
-
-### 2. Smooth Animations
-- Page transitions
-- Button hover effects
-- Progress bar animations
-- Loading states
-
-### 3. Routing Architecture
-- URL-driven course player
-- Nested routes for lessons
-- Protected routes with guards
-- Role-based access control
-
-### 4. Progress Tracking
-- Real-time progress updates
-- Visual progress indicators
-- Resume learning functionality
-
----
-
-## 📚 Sample Data
-
-The database includes:
-
-**Users**:
-- Student: `student@eduroute.com`
-- Instructor: `instructor@eduroute.com`
-- Password for both: `password123`
-
-**Courses**:
-1. Introduction to Web Development (4 lessons)
-2. Advanced React Patterns (3 lessons)
-
-**Quiz**:
-- Web Development Fundamentals Quiz (3 questions)
-
----
-
-## 🚀 Next Steps
-
-After testing the basic functionality:
-
-1. **Create Your Own Course** (as instructor)
-2. **Enroll in Multiple Courses** (as student)
-3. **Complete All Lessons** in a course
-4. **Take the Quiz** and view results
-5. **Test Edge Cases** (invalid URLs, etc.)
-
----
-
-## 📞 Need Help?
-
-If you encounter issues:
-
-1. Check the console for errors (F12)
-2. Verify backend is running (check terminal)
-3. Verify database connection
-4. Check `README.md` for detailed docs
-5. Review `walkthrough.md` for feature guide
-
----
-
-**Happy Learning! 🎓**

@@ -1,7 +1,8 @@
 # Client-Side Routing - React Router DOM
 
 Demo:
-<video controls src="20260204-1716-09.9634650.mp4" title="Title"></video>
+
+<video controls src="./20260204-1716-09.9634650.mp4" width="100%"></video>
 
 ## 📋 Project Overview
 

@@ -1,7 +1,8 @@
 # Text Translator App - Simple Guide
 
 Demo:
-<video controls src="20260204-1645-45.3959858.mp4" title="Title"></video>
+
+<video controls src="./20260204-1645-45.3959858.mp4" width="100%"></video>
 
 ## 📋 What We're Building
 

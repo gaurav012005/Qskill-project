@@ -1,6 +1,8 @@
 # Random String Generator - React Hooks Project
 
-Demo: <video controls src="20260204-1702-16.1811420.mp4" title="Title"></video>
+Demo:
+
+<video controls src="./20260204-1702-16.1811420.mp4" width="100%"></video>
 
 ## 📋 Project Overview
 
