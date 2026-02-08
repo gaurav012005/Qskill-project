@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Outfit', sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.shadow-nav {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+}
+
+@layer utilities {
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  @keyframes golden-shine {
+    0% {
+      transform: translateX(-100%) skewX(-15deg);
+    }
+
+    100% {
+      transform: translateX(200%) skewX(-15deg);
+    }
+  }
+
+  .golden-shine {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .golden-shine::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250%;
+    height: 100%;
+    background: linear-gradient(90deg,
+        transparent,
+        rgba(255, 215, 0, 0) 20%,
+        rgba(255, 215, 0, 0.6) 50%,
+        rgba(255, 215, 0, 0) 80%,
+        transparent);
+    animation: golden-shine 4s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 5;
+  }
+}
