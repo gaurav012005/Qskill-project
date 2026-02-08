@@ -1,4 +1,3 @@
-# Qskill-project
 # Qskill-projects
 
 1.TransLingo-
