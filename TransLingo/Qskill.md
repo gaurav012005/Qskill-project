@@ -2,7 +2,7 @@
 
 Demo:
 
-<video controls src="./20260204-1645-45.3959858.mp4" width="100%"></video>
+<video controls src="https://raw.githubusercontent.com/gaurav012005/Qskill-project/main/TransLingo/20260204-1645-45.3959858.mp4" width="100%"></video>
 
 ## 📋 What We're Building
 

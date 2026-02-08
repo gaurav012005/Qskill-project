@@ -4,6 +4,7 @@
 
 ### Step 1: Install Backend Dependencies
 ```bash
+cd codingninjas-clone
 cd backend
 npm install
 ```
@@ -24,6 +25,7 @@ npm run dev
 ### Step 4: Install Frontend Dependencies (Open New Terminal)
 ```bash
 cd ..
+cd codingninjas-clone
 npm install
 ```
 

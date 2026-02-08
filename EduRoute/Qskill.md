@@ -2,7 +2,7 @@
 
 Demo:
 
-<video controls src="./20260204-1716-09.9634650.mp4" width="100%"></video>
+<video controls src="https://raw.githubusercontent.com/gaurav012005/Qskill-project/main/EduRoute/20260204-1716-09.9634650.mp4" width="100%"></video>
 
 ## 📋 Project Overview
 
